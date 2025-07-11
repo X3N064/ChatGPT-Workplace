@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Token - Pump Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pump Clone</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="create.html">Create Token</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Create Token</h2>
+    <form id="create-form">
+      <label>Name: <input type="text" name="name" required></label>
+      <label>Symbol: <input type="text" name="symbol" required></label>
+      <label>Price: <input type="number" name="price" step="0.01" required></label>
+      <button type="submit">Add</button>
+    </form>
+    <div id="status"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pump Clone</p>
+  </footer>
+
+  <script src="create.js"></script>
+</body>
+</html>
